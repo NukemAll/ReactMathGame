@@ -1,0 +1,52 @@
+.field {
+    content: '';
+    background-color: #ffffff;
+    border-radius: 0.25em;
+}
+
+.field:hover {
+    background-color: #C5C5C5;
+    /* animation-duration: 1s;
+    animation-name: default;
+    animation-iteration-count: 1; */
+    transition: background-color 0.5s ease;
+}
+
+@keyframes pressed {
+    from {
+        background-color: rgb(233, 233, 233);
+    }
+    /* 25% {
+        border-bottom: 3px ridge #000;
+    }
+    50% {
+        border-bottom: 3px ridge #fff;
+    }
+    75% {
+        border-bottom: 3px ridge #000;
+    } */
+    to {
+        background-color: #8FF077;
+    }
+}
+
+@keyframes default {
+    from {
+        background-color: #ffffff;
+    }
+    to {
+        background-color: #C5C5C5;
+    }
+}
+
+
+/* .field.ant-btn {
+    content: '';
+    background-color: rgb(207, 207, 207);
+}
+
+.field.ant-btn:hover,
+.ant-btn:focus,
+.ant-btn:active {
+    transition: background-color 0.5s ease-out;
+} */
